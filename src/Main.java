@@ -9,6 +9,8 @@ public class Main {
         for (int i = 0; i < 20; i++) {
             numbers.add(random.nextInt(20 + 1));
         }
+        System.out.println(numbers);
+        System.out.println("--------------------------------");
         comparator.Comparator(numbers);
     }
 }
